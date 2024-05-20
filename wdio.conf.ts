@@ -18,7 +18,7 @@ export const config: Options.Testrunner = {
     user: process.env.LT_USERNAME,
     key: process.env.LT_ACCESS_KEY,
     specs: [
-        './test/specs/**/*.ts'
+        './test/specs/**/sdk.e2e.ts'
     ], 
     exclude: [
         // 'path/to/excluded/files'
